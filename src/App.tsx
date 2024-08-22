@@ -13,7 +13,7 @@ export default function App() {
     return (
         <main className="flex flex-col font-space_mono font-bold items-center gap-12 bg-c_Light_grayish_cyan min-h-screen justify-center">
             <img src={Logo} alt="logo" className="md:py-0 pt-16" />
-            <div className="rounded-2xl bg-white md:grid flex flex-col grid-cols-2 gap-12 p-8 md:w-[58rem]">
+            <div className="rounded-2xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white md:grid flex flex-col grid-cols-2 gap-12 p-8 md:w-[58rem]">
                 <Left />
                 <Right />
             </div>
