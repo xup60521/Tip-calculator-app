@@ -117,7 +117,7 @@ function Right() {
     const { bill, setBill, tip, customTip, numberOfPeople, setNumberOfPeople } =
         useStateContext();
     return (
-        <div className="rounded-xl bg-c_Very_dark_cyan flex flex-col px-6 py-8 gap-6">
+        <div className="rounded-xl bg-c_Very_dark_cyan flex flex-col px-12 py-8 pt-12 gap-12">
             <div className="flex items-center justify-between">
                 <p className="flex flex-col gap-1">
                     <span className="text-white">Tip Amount</span>
